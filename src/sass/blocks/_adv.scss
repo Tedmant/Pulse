@@ -1,0 +1,9 @@
+.adv {
+    min-height: 473px;
+    padding: 73px 0 83px 0;
+    &__wpapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
