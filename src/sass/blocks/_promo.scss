@@ -14,18 +14,22 @@
         font-size: 42px;
         color: #FFFFFF;
         text-transform: uppercase;
+        margin: 0;
+        line-height: 42px;
     }
     &__subheader {
+        margin: 0;
         font-weight: 500;
         font-size: 24px;
         color: #FFFFFF;
         text-transform: uppercase;
         margin-top: 17px;
+        line-height: 24px;
     }
     &__icons {
+        display: flex;
         margin-top: 60px;
         width: 424px;
-        display: flex;
         justify-content: space-between;
     }
     &__icon {
@@ -35,9 +39,21 @@
         color: #FFFFFF;
         text-align: center;
         img {
+            margin: 0 auto;
             margin-bottom: 20px;
             display: block;
-            margin: 0 auto;
+            }
+    }
+    &__link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        a {
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: #FFFFFF;
         }
     }
 
