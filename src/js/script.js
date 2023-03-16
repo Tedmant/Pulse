@@ -11,7 +11,7 @@ const pi = 3.14;
 //     console.log ('Ошибка')
 // }
 
-let answer = confirm ('Вам есть 19?')
+/* let answer = confirm ('Вам есть 19?')
 if (answer) {
     console.log ('проходи')
 } else {
@@ -24,4 +24,13 @@ if (num < 49) {
     console.log ('Много')
 } else {
     console.log('Верно')
+} */
+
+/* for(let i = 1; i < 8; i++) {
+    console.log (i);
+} */
+function logging(a, b) {
+    console.log(a + b)
 }
+
+logging(3, 5);
