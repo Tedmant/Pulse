@@ -1,6 +1,6 @@
-var name = "Ivan";
+/* var name = "Ivan";
 let number = 7;
-const pi = 3.14;
+const pi = 3.14; */
 // Number 
 // let answer = prompt ("Вам есть 18 лет?","");
 // console.log (answer);
@@ -29,8 +29,8 @@ if (num < 49) {
 /* for(let i = 1; i < 8; i++) {
     console.log (i);
 } */
-function logging(a, b) {
+/* function logging(a, b) {
     console.log(a + b)
 }
 
-logging(3, 5);
+logging(3, 5); */

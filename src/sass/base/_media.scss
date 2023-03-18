@@ -1,18 +1,38 @@
 @media (max-width: 991px) {
     .promo {
-        background-size: 100%;
-        &__header {
-
+        background-size: 150%;
+        min-height: 300px;
+        header {
+            width: 90%;
+            transform: translateX(30px);
+            img {
+                width: 90%;
+            }
         }
-        
-
+        &__header {
+            transform: translateY(-40px);
+            font-size: 35px;
+        }
+        &__subheader {
+            transform: translateY(-40px);
+            font-size: 20px;
+        } 
+        &__icons {
+            transform: translateY(-60px);
+        }
+        &__link {
+            transform: translateY(-100px);
+        }
+        .button_main {
+            transform: translateY(-110px);
+        }
     }
 }
-
-@media (max-width: 767px) {
-
+@media (max-width: 767px ) {
+    .promo {
+        background-size: 150%;
+    }
 }
-
 @media (max-width: 575px) {
-    
+
 }
