@@ -1,36 +1,13 @@
-/* var name = "Ivan";
-let number = 7;
-const pi = 3.14; */
-// Number 
-// let answer = prompt ("Вам есть 18 лет?","");
-// console.log (answer);
-
-// if (2*4 == 8*8) {// 
-//     console.log ('Верно')
-// } else {
-//     console.log ('Ошибка')
-// }
-
-/* let answer = confirm ('Вам есть 19?')
-if (answer) {
-    console.log ('проходи')
-} else {
-    cosole.log ('уходи')
-}
-
-if (num < 49) {
-    console.log ('Неправильно')
-} else if (num > 100) {
-    console.log ('Много')
-} else {
-    console.log('Верно')
-} */
-
-/* for(let i = 1; i < 8; i++) {
-    console.log (i);
-} */
-/* function logging(a, b) {
-    console.log(a + b)
-}
-
-logging(3, 5); */
+$(document).ready(function(){
+    $('.carousel__inner').slick({
+        infinite: true,
+        speed: 1200,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow:'<button type="button" class="slick-prev"><img src="../icon/left_solid.svg"></button>',
+        nextArrow: '<button type="button" class="slick-prev"><img src="../icon/right_solid.svg"></button>'
+      });
+  });
